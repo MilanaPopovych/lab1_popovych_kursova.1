@@ -15,3 +15,12 @@ int Calculator::Mul (double a, double b)
 {
     return a * b + 0.5;
 }
+
+int Calculator::ReverseAdd (double a, double b)
+{
+  return -Add(a, b);
+
+}
+
+// ReverseAdd for negative Add
+// returs -(a+b)
